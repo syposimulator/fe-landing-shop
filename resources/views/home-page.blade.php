@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title',$shop['name'].' - '.$shop['domain']['title'])
+@section('title','')
 
 @section('content')
 <div class="container-fluid">

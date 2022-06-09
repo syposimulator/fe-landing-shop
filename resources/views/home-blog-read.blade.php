@@ -12,7 +12,7 @@
                     </ol>
                 </nav>
                 <div class="title">
-                    <h1>{{$blog['title']}}</h1>
+                    <h1 class="text-uppercase">{{$blog['title']}}</h1>
                 </div>
                 <div class="meta text-muted">
                     <div class="date">
@@ -33,15 +33,14 @@
             </div>
         </div>
         <div class="col-md-4">
-            <div class="adv">
+            {{-- <div class="adv">
                 <img src="https://via.placeholder.com/854x500" class="rounded img-fluid" alt="...">
-            </div>
+            </div> --}}
             <div class="widget">
                 <div class="widget_1">
                     <h3>Prodak Terlaris</h3>
                 </div>
                 <div class="">
-                    Product list
                 </div>
             </div>
             <div class="widget">
@@ -49,11 +48,7 @@
                     <h3>Blog Terbaru</h3>
                 </div>
                 <div class="">
-                    Blog list
                 </div>
-            </div>
-            <div class="adv">
-                <img src="https://via.placeholder.com/854x500" class="rounded img-fluid" alt="...">
             </div>
         </div>
     </div>
